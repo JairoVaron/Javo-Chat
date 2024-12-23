@@ -1,0 +1,156 @@
+/*global*/
+body {
+  margin: 0;
+  background: #f4f4f9;
+  color: #333;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Encabezado */
+.encabezado {
+  justify-content: space-between;
+  background: black;
+  padding: 2rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  border-bottom: 5px solid #00ff00;
+}
+
+.contenedor-logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem; /* Espaciado entre el logo y el texto */
+}
+
+.titulo {
+  font-family: Tahoma;
+  font-size: 3rem;
+  margin: 0;
+}
+
+.azul {
+  color: #088aee;
+}
+
+.verde-viche {
+  color: #00ff00;
+}
+
+.parrafo-encabezado {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.parrafo {
+  font-size: tahoma;
+  font-size: 1.5rem;
+}
+
+/* Descripción */
+.descripcion {
+  text-align: center;
+  padding: 1.5rem;
+  background: #ffffff;
+  border: 5px solid #00ff00;
+  border-radius: 15px;
+  margin: 2rem auto;
+  max-width: 600px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.subtitulo {
+  font-size: 2rem;
+  color: #088aee;
+  margin-bottom: 1rem;
+}
+
+.descripcion p {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  font-size: 1.1rem;
+  color: #353535;
+}
+
+/* Lista de mensajes */
+.lista-mensajes {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 600px;
+  margin: 1.5rem auto;
+  padding: 0;
+  list-style: none;
+}
+
+.lista-mensajes li {
+  background-color: #ffffff;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.lista-mensajes li:hover {
+  background-color: #f1f9ff;
+  transform: translateY(-3px);
+}
+
+/* Formulario */
+.formulario-chat {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+.campo-texto {
+  flex: 1;
+  padding: 0.75rem;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.campo-texto:focus {
+  border-color: #00ff00;
+  box-shadow: 0 0 8px rgba(41, 231, 3, 0.5);
+  outline: none;
+}
+
+/*boton*/
+.boton-principal {
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #00ff00;
+  border: none;
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.boton-principal:hover {
+  background-color: #09ce09;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 3rem;
+  background-color: #000000;
+  font-size: 0.9rem;
+  color: #ffffff;
+  border-top: 1px solid #ddd;
+}
+
+.parrafo {
+  margin: 0;
+}
